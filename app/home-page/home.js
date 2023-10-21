@@ -20,7 +20,7 @@ const HomePage = () => {
             >
             <div className="absolute inset-0 bg-blue-300 bg-opacity-20"/>
                 
-                <div className="relative flex flex-col md:text-right md:justify-right text-center py-5 bg-white px-10 z-10">
+                <div className="relative flex flex-col md:text-center md:justify-right text-center py-5 bg-white px-10">
                     <h1 className="text-sweetblue md:text-6xl text-4xl font-medium">Martha</h1>
                     <p className="text-sweetblue md:text-2xl text-xl text-center md:text-left font-regular italic">New-Born Care Specialist</p>
                 </div>           
