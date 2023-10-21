@@ -42,11 +42,6 @@ const HomePage = () => {
             <SpecialServices />
             <Locations />
             <Contact id="contact" />
-            <footer href="#footer" className=" md:h-24 py-5 text-sweetblue md:flex grid-cols-1 text-center md:justify-center md:items-center md:space-x-5 md:text-lg lg:text-xl">
-                <p className="">Email: </p>
-                <p className="">© 2023 Sweet Dreams Doula </p>
-                <p className="">Phone Number: </p>
-            </footer>
         </div>
     )
 }
