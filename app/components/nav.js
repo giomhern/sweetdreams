@@ -33,7 +33,7 @@ const Navigation = () => {
                         <Link href="#contact"><p className="font-thin md:visible invisible text-lightcyan md:text-xl text-xs hover:text-cyanblue">Contact</p></Link>
                     </div>
                         <div className='flex items-center'>
-                            <a href="tel:+19099059441" className='items-center justify-center border-aliceblue text-aliceblue rounded-full md:border-2 border md:px-5 md:py-2 md:text-xl text-md px-3 py-1 hover:text-cyanblue hover:border-lightcyan hover:bg-lightcyan hover:cursor'>
+                            <a href="tel:+19099059441" className='items-center justify-center border-aliceblue text-aliceblue md:border-lightcyan md:text-lightcyan  rounded-full md:border-2 border md:px-5 md:py-2 md:text-xl text-md px-3 py-1 hover:text-cyanblue hover:border-lightcyan hover:bg-lightcyan hover:cursor'>
                                 Book Now
                             </a>
                         </div>
