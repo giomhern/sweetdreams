@@ -4,9 +4,9 @@ import React from "react";
 const SpecialServices = () => {
     return (
         <div id="special-services" className=' px-14 md:py-10 md:p-10 '>
-            <h1 className='md:text-6xl text-3xl pb-10 md:text-center text-left text-aliceblue'>But that’s not all, our first 5 Families also get:</h1>
+            <h1 className='md:text-6xl text-3xl pb-10 md:text-center text-center text-aliceblue'>But that’s not all, our first 5 Families also get:</h1>
             
-            <div className='md:grid md:grid-cols-3 md:space-x-5 flex flex-col gap-y-5 justify-center items-center'>
+            <div className='md:grid md:grid-cols-3 md:space-x-5 flex flex-col gap-y-7 justify-center items-center'>
                 <div className='flex-col md:p-10 shadow-lg shadow-blue-100 bg-white p-7'>
                     <div className='flex flex-col items-center pb-2'>
                         <svg className="md:h-[4em] md:w-[4em] h-[2.5em] w-[2.5em] pb-2" xmlns="http://www.w3.org/2000/svg" fill="#00BFFF" height="5em" width="5em" viewBox="0 0 48 48">
