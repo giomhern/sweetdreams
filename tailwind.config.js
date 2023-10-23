@@ -8,9 +8,11 @@ module.exports = {
   theme: {
     extend: {
         colors:{
-            "sweetblue": "#85b9c1",
-            'sweetred': "#BF796A",
             "lightblue": "#bcd8dd",
+            "electric": "#7DF9FF",
+            "cyanblue": "#00DFFF",
+            "aliceblue": "#00BFFF", 
+            "lightcyan": "#F4F8FD", 
         }, 
         animation: {
         'infinite-scroll': 'infinite-scroll 40s linear infinite',
@@ -22,8 +24,8 @@ module.exports = {
       },
       keyframes: {
         'infinite-scroll': {
-          from: { transform: 'translateX(0)' },
-          to: { transform: 'translateX(-100%)' },
+            from: { transform: 'translateX(0)' },
+            to: { transform: 'translateX(-50%)' },
         }
       }   
     },

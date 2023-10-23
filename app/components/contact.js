@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 const Contact = () => {
     return (
-        <section id="contact" className="bg-white">
+        <section id="contact" >
             <div className="container px-6 py-12 mx-auto">
                 <div className="text-center">
                     <p className=" md:text-6xl text-3xl text-sweetblue">Contact Me</p>
