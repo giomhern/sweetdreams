@@ -16,7 +16,7 @@ const secondaryJumbo = <div
         backgroundRepeat: "no-repeat",
     }}>
     <div className="absolute inset-0 bg-lightcyan bg-opacity-20" />
-    <div className="relative md:px-3 lg:px-7 md:py-5 py-3 px-1 bg-white">
+    <div className="relative md:px-3 lg:px-7 md:py-5 py-3 px-[5px] bg-white">
         <h1 className="text-aliceblue md:text-6xl text-lg text-center font-medium">Connecting families with quality care and assurance.</h1>
     </div>
 </div>;
