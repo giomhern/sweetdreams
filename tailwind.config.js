@@ -10,7 +10,7 @@ module.exports = {
         colors:{
             "lightblue": "#bcd8dd",
             "electric": "#7DF9FF",
-            "cyanblue": "#00DFFF",
+            "cyanblue": "#00CBFF",
             "aliceblue": "#00BFFF", 
             "lightcyan": "#F4F8FD", 
         }, 

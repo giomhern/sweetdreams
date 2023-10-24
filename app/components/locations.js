@@ -31,19 +31,19 @@ const Locations = () => {
                 <div ref={scrollRef} className="inline-flex">
                     {/* List items */}
                     <ul className="inline-flex space-x-10 items-center text-center justify-center">
-                        <li className="md:text-3xl text-md px-10">Los Angeles</li>
-                        <li className="md:text-3xl text-md px-10">San Bernardino</li>
-                        <li className="md:text-3xl text-md px-10">Hollywood</li>
-                        <li className="md:text-3xl text-md px-10">Inglewood</li>
-                        <li className="md:text-3xl text-md px-10">Koreatown</li>
-                        <li className="md:text-3xl text-md px-10">Northridge</li>
+                        <li className="md:text-3xl text-md px-10">Claremont</li>
+                        <li className="md:text-3xl text-md px-10">Mount Baldy</li>
+                        <li className="md:text-3xl text-md px-10">Rancho Cucamonga</li>
+                        <li className="md:text-3xl text-md px-10">Corona</li>
+                        <li className="md:text-3xl text-md px-10">Irvine</li>
+                        <li className="md:text-3xl text-md px-10">Redlands</li>
                         {/* Duplicate the items for infinite scroll effect */}
-                        <li className="md:text-3xl text-md px-10">Los Angeles</li>
-                        <li className="md:text-3xl text-md px-10">San Bernardino</li>
-                        <li className="md:text-3xl text-md px-10">Hollywood</li>
-                        <li className="md:text-3xl text-md px-10">Inglewood</li>
-                        <li className="md:text-3xl text-md px-10">Koreatown</li>
-                        <li className="md:text-3xl text-md px-10">Northridge</li>
+                        <li className="md:text-3xl text-md px-10">Anaheim</li>
+                        <li className="md:text-3xl text-md px-10">Upland</li>
+                        <li className="md:text-3xl text-md px-10">Chino Hills</li>
+                        <li className="md:text-3xl text-md px-10">La Verne</li>
+                        <li className="md:text-3xl text-md px-10">Pasadena</li>
+                        <li className="md:text-3xl text-md px-10">Chino Hills</li>
                     </ul>
                 </div>
             </div>

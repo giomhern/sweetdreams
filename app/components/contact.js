@@ -2,33 +2,19 @@
 const Contact = () => {
     return (
         <section id="contact" >
-            <div className="container px-6 py-12 mx-auto">
-                <div className="text-center">
-                    <p className=" md:text-6xl text-3xl text-sweetblue">Contact Me</p>
+            <div className="lg:flex lg:py-10 justify-center items-center text-left">
+                <div className="p-14 px-20 w-1/3">
+                    <h1 className="text-5xl text-aliceblue">Contact Me</h1>
+                    <p className="text-2xl text-cyanblue">Let&apos;s get in touch!</p>
                 </div>
-
-                <div className="grid grid-cols-1 gap-12 mt-10 md:grid-cols-2">
-                    <div className="flex flex-col items-center justify-center text-center">
-                        <span className="p-5 text-sweetblue rounded-full bg-blue-100/80">
-                            <svg className="md:h-[2em] md:w-[2em] h-[1.5em] w-[1.5em]" xmlns="http://www.w3.org/2000/svg" fill="none" height="2em"  width="2em" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
-                            </svg>
-                        </span>
-
-                        <h2 className="mt-4 text-lg font-medium text-gray-800">Email</h2>
-                        <p className="mt-2 text-gray-500">We respond as soon as possible!</p>
-                        <p className="mt-2 text-sweetblue">hello@merakiui.com</p>
+                <div className="flex gap-10 col-span-2 w-2/3">
+                    <div className="bg-white p-14 pr-20 w-1/3 ">
+                        <h1 className="text-3xl text-aliceblue">Phone</h1>
+                        <p className="text-2xl text-cyanblue">+1 (213) 248 - 2342</p>
                     </div>
-                    <div className="flex flex-col items-center justify-center text-center">
-                        <span className="p-5 text-sweetblue rounded-full bg-blue-100/80">
-                            <svg className="md:h-[2em] md:w-[2em] h-[1.5em] w-[1.5em]" xmlns="http://www.w3.org/2000/svg" fill="none" height="2em"  width="2em" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
-                            </svg>
-                        </span>
-                        
-                        <h2 className="mt-4 text-lg font-medium text-gray-800">Phone</h2>
-                        <p className="mt-2 text-gray-500">Mon - Fri from 8am to 5pm.</p>
-                        <p className="mt-2 text-sweetblue">+1 (909) 905-9441</p>
+                    <div className="p-14 pr-20  rounded-lg bg-white w-1/3 ">
+                        <h1 className="text-3xl text-aliceblue">Email</h1>
+                        <p className="text-2xl text-cyanblue">example@gmail.com</p>
                     </div>
                 </div>
             </div>
