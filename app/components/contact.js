@@ -1,5 +1,5 @@
 // pages/contact.js
-import { PhoneIcon, MailIcon } from '@heroicons/react/solid';
+import { PhoneIcon, MailIcon } from '@heroicons/react/outline';
 
 const Contact = () => {
   return (
@@ -7,16 +7,16 @@ const Contact = () => {
     <div className="md:grid md:grid-cols-2 grid-cols-1 place-content-center place-items-center items-center w-full justify-center md:py-24 py-10">
         <div className='pb-10'>
            <h1 className='md:text-6xl text-3xl text-center text-aliceblue pb-4'>Contact Me</h1>
-            <p className='md:text-lg text-md text-center text-aliceblue px-14'>I&apos;m here for you anytime, day or night. Reach out, and I&apos;ll get back to you as soon as possible!</p>
+            <p className='md:text-lg text-md text-center text-cyanblue px-14'>I&apos;m here for you anytime, day or night. Reach out, and I&apos;ll get back to you as soon as possible!</p>
         </div>
         <div className='lg:flex-row flex flex-col items-center md:gap-10 gap-5'>
             <div className='flex items-center' >
                 <PhoneIcon className="md:h-10 md:w-10 h-5 w-5 mr-3 text-blue-500"/>
-                <span className="md:text-2xl text-lg text-aliceblue">+1 (900) 905-9441</span>
+                <span className="md:text-2xl text-lg text-cyanblue">+1 (900) 905-9441</span>
             </div>
             <div className="flex items-center">
                 <MailIcon className="md:h-10 md:w-10 h-5 w-5 mr-3 text-blue-500"/>
-                <span className="md:text-2xl text-lg text-aliceblue">isariomartha37@gmail.com</span>
+                <span className="md:text-2xl text-lg text-cyanblue">isariomartha37@gmail.com</span>
             </div>
         </div>
     </div>

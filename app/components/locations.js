@@ -43,7 +43,7 @@ const Locations = () => {
                         <li className="md:text-3xl text-md px-10">Chino Hills</li>
                         <li className="md:text-3xl text-md px-10">La Verne</li>
                         <li className="md:text-3xl text-md px-10">Pasadena</li>
-                        <li className="md:text-3xl text-md px-10">Chino Hills</li>
+                        <li className="md:text-3xl text-md px-10">Santa Monica</li>
                     </ul>
                 </div>
             </div>

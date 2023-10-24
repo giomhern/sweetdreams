@@ -32,7 +32,6 @@ export default function App() {
             {secondaryJumbo}
             <Services />
             <SpecialServices />
-            <ThreeMonthOffer />
             <Locations />
             <Contact />
         </div>

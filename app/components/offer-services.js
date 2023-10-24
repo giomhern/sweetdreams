@@ -4,7 +4,7 @@ import React from "react";
 const SpecialServices = () => {
     return (
         <div id="special-services" className=' px-14 md:py-10 md:p-10'>
-            <h1 className='md:text-6xl text-3xl pb-10 md:text-center text-center text-aliceblue'>But that’s not all, our next 5 families also get:</h1>
+            <h1 className='md:text-6xl text-3xl pb-10 md:text-center text-center text-aliceblue'>But that’s not all, call by the end of the year for special offers:</h1>
             
             <div className='md:grid md:grid-cols-2 md:max-w-7xl md:m-auto flex flex-col md:gap-7 gap-y-7'>
             
@@ -25,7 +25,14 @@ const SpecialServices = () => {
                     </div>
                     <p className='text-lg text-cyanblue'> We will handle all of the laundry necessary to ensure that you have one less task to do.</p>
                 </div>
+                
             </div>
+            <div className='flex items-center justify-center md:pt-10 pt-5'>
+                <a href="tel:+19099059441" className='text-center items-center md:max-w-7xl justify-center border-aliceblue text-aliceblue md:border-aliceblue md:text-aliceblue hover:text-lightcyan rounded-full md:border-2 border md:px-10 md:py-5 md:text-3xl text-lg px-3 py-2 hover:border-aliceblue hover:bg-aliceblue hover:cursor'>
+                    Call Now
+                </a>
+            </div>
+
         </div>
     )
 }

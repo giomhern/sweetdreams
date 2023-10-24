@@ -5,7 +5,7 @@ const Services = () => {
     return (
         <div id="services" className='text-sweetred md:py-20 py-10 px-14'>
             <h1 className='md:text-6xl text-3xl md:pb-5 pb-3 text-center text-aliceblue'>Services</h1>
-            <p className='md:text-xl text-lg text-aliceblue md:text-center text-center pb-5 md:pb-10'>
+            <p className='md:text-xl text-lg text-cyanblue md:text-center text-center pb-5 md:pb-10'>
                 Feeling overwhelmed by the challenges of new parenthood? Trust us, you&apos;re not alone—and we&apos;ve got the perfect solution!
                 
             </p>
