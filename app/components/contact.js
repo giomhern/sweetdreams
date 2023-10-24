@@ -12,18 +12,18 @@ const Contact = () => {
         <div className='lg:flex-row flex flex-col items-center md:gap-10 gap-5'>
             <div className='flex items-center' >
                 <PhoneIcon className="md:h-10 md:w-10 h-5 w-5 mr-3 text-blue-500"/>
-                <span className="md:text-4xl  text-aliceblue">+1 (900) 905-9441</span>
+                <span className="md:text-2xl text-lg text-aliceblue">+1 (900) 905-9441</span>
             </div>
             <div className="flex items-center">
                 <MailIcon className="md:h-10 md:w-10 h-5 w-5 mr-3 text-blue-500"/>
-                <span className="md:text-4xl text-aliceblue">isariomartha37@gmail.com</span>
+                <span className="md:text-2xl text-lg text-aliceblue">isariomartha37@gmail.com</span>
             </div>
         </div>
     </div>
         /*
         <div className="flex items-center justify-center py-12">
         <div className="p-6 w-full md:w-2/3 flex items-center justify-between">
-            <div className="text-4xl font-semibold">Contact Me</div>
+            <div className="text-2xl font-semibold">Contact Me</div>
             <div className="grid grid-cols-2 gap-4">
                 <div className="flex items-center">
                     <PhoneIcon className="h-6 w-6 mr-3 text-blue-500"/>
