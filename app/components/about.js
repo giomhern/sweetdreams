@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const About = () => {
     return (
-        <div id='about' className="md:px-8 md:py-10 md:grid md:grid-cols-2 md:space-x-10 lg:h-[45em] md:justify-center md:items-center flex flex-col justify-center items-center px-5 md:h-96 h-[30em] ">
+        <div id='about' className="md:px-8 md:py-10 md:grid md:grid-cols-2 md:space-x-10 lg:h-[45em] md:justify-center md:items-center flex flex-col justify-center items-center px-5 md:h-96 h-[35em] ">
             <div className="text-center px-10">
                 <h1 className="lg:text-7xl text-3xl pb-5 text-left text-aliceblue">Hello, I am Martha!</h1>
             </div>
