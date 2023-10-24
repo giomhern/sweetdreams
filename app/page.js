@@ -34,7 +34,7 @@ export default function App() {
             <SpecialServices />
             <ThreeMonthOffer />
             <Locations />
-            {/* <Contact /> */}
+            <Contact />
         </div>
   )
 }

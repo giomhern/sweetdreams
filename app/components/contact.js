@@ -1,25 +1,46 @@
-/* eslint-disable @next/next/no-img-element */
+// pages/contact.js
+import { PhoneIcon, MailIcon } from '@heroicons/react/solid';
+
 const Contact = () => {
-    return (
-        <section id="contact" >
-            <div className="lg:flex lg:py-10 justify-center items-center text-left">
-                <div className="p-14 px-20 w-1/3">
-                    <h1 className="text-5xl text-aliceblue">Contact Me</h1>
-                    <p className="text-2xl text-cyanblue">Let&apos;s get in touch!</p>
+  return (
+
+    <div className="md:grid md:grid-cols-2 grid-cols-1 place-content-center place-items-center items-center w-full justify-center md:py-24 py-10">
+        <div className='pb-10'>
+           <h1 className='md:text-6xl text-3xl text-center text-aliceblue pb-4'>Contact Me</h1>
+            <p className='md:text-lg text-md text-center text-aliceblue px-14'>I&apos;m here for you anytime, day or night. Reach out, and I&apos;ll get back to you as soon as possible!</p>
+        </div>
+        <div className='lg:flex-row flex flex-col items-center md:gap-10 gap-5'>
+            <div className='flex items-center' >
+                <PhoneIcon className="md:h-10 md:w-10 h-5 w-5 mr-3 text-blue-500"/>
+                <span className="md:text-4xl  text-aliceblue">+1 (900) 905-9441</span>
+            </div>
+            <div className="flex items-center">
+                <MailIcon className="md:h-10 md:w-10 h-5 w-5 mr-3 text-blue-500"/>
+                <span className="md:text-4xl text-aliceblue">isariomartha37@gmail.com</span>
+            </div>
+        </div>
+    </div>
+        /*
+        <div className="flex items-center justify-center py-12">
+        <div className="p-6 w-full md:w-2/3 flex items-center justify-between">
+            <div className="text-4xl font-semibold">Contact Me</div>
+            <div className="grid grid-cols-2 gap-4">
+                <div className="flex items-center">
+                    <PhoneIcon className="h-6 w-6 mr-3 text-blue-500"/>
+                    <span className="text-xl">+1 (123) 456-7890</span>
                 </div>
-                <div className="flex gap-10 col-span-2 w-2/3">
-                    <div className="bg-white p-14 pr-20 w-1/3 ">
-                        <h1 className="text-3xl text-aliceblue">Phone</h1>
-                        <p className="text-2xl text-cyanblue">+1 (213) 248 - 2342</p>
-                    </div>
-                    <div className="p-14 pr-20  rounded-lg bg-white w-1/3 ">
-                        <h1 className="text-3xl text-aliceblue">Email</h1>
-                        <p className="text-2xl text-cyanblue">example@gmail.com</p>
-                    </div>
+                <div className="flex items-center">
+                    <MailIcon className="h-6 w-6 mr-3 text-blue-500"/>
+                    <span className="text-xl">martha@email.com</span>
                 </div>
             </div>
-        </section>
-    )
+        </div>
+    </div>
+    */
+
+
+
+  );
 }
 
-export default Contact; 
+export default Contact;

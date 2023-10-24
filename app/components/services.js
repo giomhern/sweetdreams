@@ -13,18 +13,18 @@ const Services = () => {
 
                 <div className='flex-col bg-white md:hover:scale-105 md:p-10 px-4 py-6 shadow-lg shadow-blue-100 '>
                     <div className='flex flex-col bg-white space-y-2 items-center  justify-center pb-3'>
-                        <svg className="md:h-[4em] md:w-[4em] h-[2.5em] w-[2.5em]" xmlns="http://www.w3.org/2000/svg" fill="#00BFFF" height="5em" width="5em" viewBox="0 0 1024 1024">
-                            <path d="M128 352.576V352a288 288 0 0 1 491.072-204.224 192 192 0 0 1 274.24 204.48 64 64 0 0 1 57.216 74.24C921.6 600.512 850.048 710.656 736 756.992V800a96 96 0 0 1-96 96H384a96 96 0 0 1-96-96v-43.008c-114.048-46.336-185.6-156.48-214.528-330.496A64 64 0 0 1 128 352.64zm64-.576h64a160 160 0 0 1 320 0h64a224 224 0 0 0-448 0zm128 0h192a96 96 0 0 0-192 0zm439.424 0h68.544A128.256 128.256 0 0 0 704 192c-15.36 0-29.952 2.688-43.52 7.616 11.328 18.176 20.672 37.76 27.84 58.304A64.128 64.128 0 0 1 759.424 352zM672 768H352v32a32 32 0 0 0 32 32h256a32 32 0 0 0 32-32v-32zm-342.528-64h365.056c101.504-32.64 165.76-124.928 192.896-288H136.576c27.136 163.072 91.392 255.36 192.896 288z" strokeWidth="0.5"/>
+                        <svg className="md:h-[4em] md:w-[4em] h-[2.5em] w-[2.5em]"  xmlns="http://www.w3.org/2000/svg" width="80px" height="80px" viewBox="0 0 24 24" fill="none">
+                            <path d="M3 5V19M3 16H21M21 19V13.2C21 12.0799 21 11.5198 20.782 11.092C20.5903 10.7157 20.2843 10.4097 19.908 10.218C19.4802 10 18.9201 10 17.8 10H11V15.7273M7 12H7.01M8 12C8 12.5523 7.55228 13 7 13C6.44772 13 6 12.5523 6 12C6 11.4477 6.44772 11 7 11C7.55228 11 8 11.4477 8 12Z" stroke="#00BFFF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                         </svg>
-                        <p className='text-xl text-extrabold text-aliceblue'>60 Hours of Expert Newborn Care Weekly</p>
+                        <p className='text-xl text-extrabold text-aliceblue'>Newborn Room Tidying Service</p>
                     </div>
-                    <p className='text-lg text-cyanblue'>Come home to a tidy space and a home-cooked soup, so you can enjoy quality time with your family without distractions.</p>
+                    <p className='text-lg text-cyanblue'>Enjoy a tidy baby&apos;s bedroom daily, letting you focus solely on bonding with your newborn.</p>
                 </div>
 
                 <div className='flex-col bg-white  md:hover:scale-105 md:p-10 px-4 py-6 shadow-lg shadow-blue-100'>
                     <div className='flex flex-col bg-white  space-y-2 items-center  justify-center pb-3'>
                         <svg className="md:h-[4em] md:w-[4em] h-[2.5em] w-[2.5em]" xmlns="http://www.w3.org/2000/svg" fill="#00BFFF" height="5em" width="5em" viewBox="0 0 24 24"><path d="M20.492,10.04a8.987,8.987,0,0,0-6.376-5.788A1.583,1.583,0,0,1,15,4a1,1,0,0,0,0-2,3.541,3.541,0,0,0-3.27,2.011A8.979,8.979,0,0,0,3.508,10.04a3,3,0,0,0,0,5.92,8.99,8.99,0,0,0,16.984,0,3,3,0,0,0,0-5.92ZM20.007,14l-.137-.018a1.007,1.007,0,0,0-1.1.747,6.99,6.99,0,0,1-13.55,0,1,1,0,0,0-.968-.754c-.042,0-.084,0-.127.007L4,14a1,1,0,0,1-.008-2l.133.017a1,1,0,0,0,1.1-.745,6.976,6.976,0,0,1,5.847-5.194A6.581,6.581,0,0,0,11,7a1,1,0,0,0,1,1h0a1,1,0,0,0,1-1,5.492,5.492,0,0,1,.1-.91,6.982,6.982,0,0,1,5.676,5.179,1,1,0,0,0,1.1.745L20.006,12a1,1,0,0,1,0,2ZM10.5,13A1.5,1.5,0,1,1,9,11.5,1.5,1.5,0,0,1,10.5,13Zm6,0A1.5,1.5,0,1,1,15,11.5,1.5,1.5,0,0,1,16.5,13Z" strokeWidth="0.5"/></svg>
-                        <p className='text-xl text-extrabold text-aliceblue'>60 Hours of Expert Newborn Care Weekly</p>
+                        <p className='text-xl text-extrabold text-aliceblue'>Flexible Hours of Expert Newborn Care Weekly</p>
                     </div>
                      <p className='text-lg text-cyanblue'>Kiss sleepless nights goodbye with round-the-clock expert care for your baby.</p>
                 </div>
