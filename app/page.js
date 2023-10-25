@@ -9,6 +9,7 @@ import Contact from "./components/contact";
 import Jumbo from "./components/jumbo-intro";
 import ThreeMonthOffer from "./components/3-month-offer";
 import Head from "next/head";
+import Certs from "./components/certifications";
 
 const secondaryJumbo = <div
     className="relative md:h-[100vh] h-[50vh] md:bg-center bg-top flex items-center justify-center"
@@ -30,6 +31,7 @@ export default function App() {
         <Navigation />
         <Jumbo />
         <About />
+        <Certs />
         {secondaryJumbo}
         <Services />
         <SpecialServices />
