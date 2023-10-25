@@ -8,6 +8,7 @@ import Locations from "./components/locations";
 import Contact from "./components/contact";
 import Jumbo from "./components/jumbo-intro";
 import ThreeMonthOffer from "./components/3-month-offer";
+import Head from "next/head";
 
 const secondaryJumbo = <div
     className="relative md:h-[100vh] h-[50vh] md:bg-center bg-top flex items-center justify-center"
@@ -25,15 +26,15 @@ const secondaryJumbo = <div
 
 export default function App() {
   return (
-        <div className="min-h-screen bg-lightcyan">
-            <Navigation />
-            <Jumbo />
-            <About />
-            {secondaryJumbo}
-            <Services />
-            <SpecialServices />
-            <Locations />
-            <Contact />
-        </div>
+    <div className="min-h-screen bg-lightcyan">
+        <Navigation />
+        <Jumbo />
+        <About />
+        {secondaryJumbo}
+        <Services />
+        <SpecialServices />
+        <Locations />
+        <Contact />
+    </div>
   )
 }

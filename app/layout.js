@@ -6,7 +6,13 @@ const gabarito = Gabarito({ subsets: ['latin'], display: 'swap'})
 export const metadata = {
   title: 'Sweet Dreams',
   description: 'Created by Giovanni Maya',
-  image: '/sweet-logo.png',
+  icons: {
+    icon: {
+      url: "/favicon.png",
+      type: "image/png",
+    },
+    shortcut: { url: "/favicon.png", type: "image/png" },
+  },
 }
 
 export default function RootLayout({ children }) {

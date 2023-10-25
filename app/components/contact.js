@@ -12,7 +12,7 @@ const Contact = () => {
         <div className='lg:flex-row flex flex-col items-center md:gap-10 gap-5'>
             <div className='flex items-center' >
                 <PhoneIcon className="md:h-10 md:w-10 h-5 w-5 mr-3 text-blue-500"/>
-                <span className="md:text-2xl text-lg text-cyanblue">+1 (900) 905-9441</span>
+                <span className="md:text-2xl text-lg text-cyanblue">+1 (909) 905-9441</span>
             </div>
             <div className="flex items-center">
                 <MailIcon className="md:h-10 md:w-10 h-5 w-5 mr-3 text-blue-500"/>
