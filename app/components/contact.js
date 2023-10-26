@@ -16,7 +16,7 @@ const Contact = () => {
             </div>
             <div className="flex items-center">
                 <MailIcon className="md:h-10 md:w-10 h-5 w-5 mr-3 text-blue-500"/>
-                <span className="md:text-2xl text-lg text-cyanblue">isariomartha37@gmail.com</span>
+                <a href="mailto:isariomartha37@gmail.com"><span className="md:text-2xl text-lg hover:underline-offset-2 hover:underline text-cyanblue">isariomartha37@gmail.com</span></a>
             </div>
         </div>
     </div>
