@@ -7,7 +7,7 @@ const Navigation = () => {
         <div>
             <nav className="flex justify-between md:py-4 px-5 py-3 md:px-10  w-full">
                 <div className='flex md:space-x-5 space-x-2 items-center justify-center'>
-                    <Link href="/"><img className='h-[60px] w-[60px] md:h-[80px] md:w-[80px] ' src='./SWEETDREAMS.png' height="80px" width="80px" alt='this is the logo'></img></Link> 
+                    <Link href="/"><img className='h-[60px] w-[60px] md:h-[85px] md:w-[85px] ' src='./SWEETDREAMS.png' height="80px" width="80px" alt='this is the logo'></img></Link> 
                     <Link href="/"><p className="font-thin text-aliceblue md:text-xl  md:visible invisible text-xs hover:text-cyanblue">Home</p></Link>
                     <Link href="#services"><p className="font-thin md:visible invisible text-aliceblue md:text-xl text-xs hover:text-cyanblue">Services</p></Link>
                     <Link href="#about"><p className="font-thin md:visible invisible  text-aliceblue md:text-xl text-xs hover:text-cyanblue">About Me</p></Link>
