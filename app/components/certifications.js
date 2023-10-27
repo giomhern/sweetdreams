@@ -31,16 +31,16 @@ const Certs = () => {
                 <div ref={scrollRef} className="inline-flex">
                     {/* List items */}
                     <ul className="inline-flex space-x-10 items-center text-center justify-center">
-                        <li className="md:text-3xl text-md px-10">Caregiver</li>
-                        <li className="md:text-3xl text-md px-10">CPR</li>
-                        <li className="md:text-3xl text-md px-10">PT Aide</li>
-                        <li className="md:text-3xl text-md px-10">Medical Assistant</li>
-                        <li className="md:text-3xl text-md px-10">LVN Equivalent</li>
-                        <li className="md:text-3xl text-md px-10">Resources for Infant Educators</li>
+                        <li className="md:text-3xl text-md whitespace-nowrap px-10">Caregiver</li>
+                        <li className="md:text-3xl text-md whitespace-nowrap px-10">CPR</li>
+                        <li className="md:text-3xl text-md whitespace-nowrap px-10">PT Aide</li>
+                        <li className="md:text-3xl text-md whitespace-nowrap px-10">Medical Assistant</li>
+                        <li className="md:text-3xl text-md whitespace-nowrap px-10">LVN Equivalent</li>
+                        <li className="md:text-3xl text-md whitespace-nowrap px-10">Resources for Infant Educators</li>
                         {/* Duplicate the items for infinite scroll effect */}
-                        <li className="md:text-3xl text-md px-10">IDSA</li>
-                        <li className="md:text-3xl text-md px-10">Newborn Care Specialist</li>
-                        <li className="md:text-3xl text-md px-10">Proper Breastfeeding</li>
+                        <li className="md:text-3xl text-md whitespace-nowrap px-10">IDSA</li>
+                        <li className="md:text-3xl text-md whitespace-nowrap px-10">Newborn Care Specialist</li>
+                        <li className="md:text-3xl text-md whitespace-nowrap px-10">Proper Breastfeeding</li>
                     </ul>
                 </div>
             </div>
