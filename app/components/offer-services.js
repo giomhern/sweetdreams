@@ -4,7 +4,7 @@ import React from "react";
 const SpecialServices = () => {
     return (
         <div id="special-services" className=' px-14 md:py-10 md:p-10'>
-            <h1 className='md:text-6xl text-3xl pb-10 md:text-center text-center text-aliceblue'>But that’s not all, call by the end of the year for special offers:</h1>
+            <h1 className='md:text-6xl text-3xl pb-10 md:text-center text-center text-aliceblue'>But that’s not all, call for special offers:</h1>
             
             <div className='md:grid md:grid-cols-2 md:max-w-7xl md:m-auto flex flex-col md:gap-7 gap-y-7'>
             

@@ -12,7 +12,7 @@ const Jumbo = () => {
             
             <div className="flex flex-col md:text-center md:justify-right text-center py-5 bg-white px-10">
                 <h1 className="text-aliceblue md:text-6xl text-4xl font-medium">Martha</h1>
-                <p className="text-cyanblue md:text-2xl text-xl text-center md:text-left font-regular italic">New-Born Care Specialist</p>
+                <p className="text-cyanblue md:text-2xl text-xl text-center md:text-left font-regular italic">Newborn Care Specialist</p>
             </div>           
         </div>
     )

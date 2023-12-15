@@ -7,7 +7,7 @@ const Contact = () => {
     <div className="md:grid md:grid-cols-2 grid-cols-1 place-content-center place-items-center items-center w-full justify-center md:py-24 py-10">
         <div className='pb-10'>
            <h1 className='md:text-6xl text-3xl text-center text-aliceblue pb-4'>Contact Me</h1>
-            <p className='md:text-lg text-md text-center text-cyanblue px-14'>I&apos;m here for you anytime, day or night. Reach out, and I&apos;ll get back to you as soon as possible!</p>
+            <p className='md:text-lg text-md text-center text-cyanblue px-14'>I&apos;m here for you anytime, day or night. Reach out, and I&apos;ll get back to you as soon as possible! No matter where you are, I&apos;ll be there!</p>
         </div>
         <div className='lg:flex-row flex flex-col items-center md:gap-10 gap-5'>
             <div className='flex items-center' >

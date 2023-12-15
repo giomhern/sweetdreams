@@ -31,6 +31,10 @@ const Locations = () => {
                 <div ref={scrollRef} className="inline-flex">
                     {/* List items */}
                     <ul className="inline-flex space-x-10 items-center text-center justify-center">
+                        <li className="md:text-3xl text-md whitespace-nowrap px-10">Los Angeles</li>
+                        <li className="md:text-3xl text-md whitespace-nowrap px-10">San Bernardino</li>
+                        <li className="md:text-3xl text-md whitespace-nowrap px-10">Beverly Hills</li>
+                        <li className="md:text-3xl text-md whitespace-nowrap px-10">Brentwood</li>
                         <li className="md:text-3xl text-md whitespace-nowrap px-10">Claremont</li>
                         <li className="md:text-3xl text-md whitespace-nowrap px-10">Mount Baldy</li>
                         <li className="md:text-3xl text-md whitespace-nowrap px-10">Rancho Cucamonga</li>
