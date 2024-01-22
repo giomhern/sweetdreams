@@ -5,7 +5,7 @@ import React, { useState, useRef, useEffect } from 'react';
 const Navigation = () => {
     return (
         <div>
-            <nav className="flex justify-between md:py-4 px-5 py-3 md:px-10  w-full">
+            <nav className="flex justify-between md:py-4 px-5 py-3 md:px-10 invisible md:visible  w-full">
                 <div className='flex md:space-x-5 space-x-2 items-center justify-center'>
                     <Link href="/"><p className="font-thin text-aliceblue md:text-xl  md:visible invisible text-xs hover:text-cyanblue">Home</p></Link>
                     <Link href="#services"><p className="font-thin md:visible invisible text-aliceblue md:text-xl text-xs hover:text-cyanblue">Services</p></Link>
