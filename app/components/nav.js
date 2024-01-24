@@ -30,7 +30,7 @@ const Navigation = () => {
       <div className="flex items-center">
         <a
           href="tel:+19099059441"
-          className="items-center justify-center border-aliceblue text-aliceblue border-aliceblue text-aliceblue hover:text-lightcyan rounded-full border-2 px-5 py-2 text-xl hover:border-aliceblue hover:bg-aliceblue hover:cursor"
+          className="items-center justify-center border-aliceblue text-aliceblue  hover:text-lightcyan rounded-full border-2 px-5 py-2 text-xl hover:border-aliceblue hover:bg-aliceblue hover:cursor"
         >
           Book
         </a>
